@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("cine.jpg");
+    font-family: 'Lobster', sans-serif;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container{
+    background-color: rgba(199, 25, 25, 0.973);
+    border: 1px solid black;
+    min-height: 100vh;
+}
+
+.container h1 {
+    text-shadow: 0 0 3px white;
+}
+
+.container h2 {
+    text-shadow: 0 0 3px white;
+}
+
+.container p {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.container .btn {
+    background-color: rgb(189, 166, 36);
+    border-radius: 25px;
+    border: none;
+}
+
+.container .btn:hover{
+    background-color: rgb(255, 230, 87);
+    color: black;
+    border: none;
+}
+
+.container .info {
+    margin-top: 25%;
+}
+
+
+.formulario {
+    background: rgba(0, 0, 0, .1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    color: white;
+}
+
+.form-control {
+    background: rgba(0, 0, 0, .3);
+    border-style: none;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    background: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.form-control::placeholder {
+    color: white;
+}
+
+.ingresar {
+    background: #222A3F;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    transition: 0.5s ease-in;
+}
+
+.ingresar:hover {
+    color: white;
+}
+
+.olvide {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+
+.olvide:hover {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.olvide1 {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 700!important;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.olvide1:hover {
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+#final p {
+    font-size: x-large;
+}
+
+#final h1 {
+    font-family: sans-serif;
+    font-size: medium;
+    text-shadow: none;
+}
+
+#info p {
+    font-size: x-large;
+}
+
+.contenedor2 {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+.encabezado {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.contenedor2 .pelicula {
+	text-align: center;
+}
+
+.contenedor2 .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor2 .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
